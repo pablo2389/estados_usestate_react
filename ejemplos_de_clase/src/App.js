@@ -14,23 +14,33 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>Edit <code>src/App.js</code> and save to reload.</p>
-        <a className="App-link" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          Learn React
-        </a>
-        {/* <MyName name="INOVE"/> */}
-        {/* <h1>Hola <Nombre /></h1> */}
+        {/* 1. CSS Modules: */}
         {/* <Boton /> */}
+
+        {/* 2. Pasaje de propiedades a componente */}
+        {/* <MyName name="INOVE"/> */}
+        
+        {/* 3. Estilado por atributo "style" */}
         {/* <CajaPorAtributo /> */}
+        {/* <h1>Hola <Nombre /></h1> */}
+        
+        {/* 4. Componente que aplica estilo a sus hijos */}
         {/* <StyleBox>
           <h1>Styled Box</h1>
           <p>Soy una caja que aplica estilo a todos mis hijos.</p>
         </StyleBox> */}
+
+        {/* 5. Problema de renderizado */}
         {/* <Likes number={0}/> */}
+
+        {/* 6. Solución con useState */}
         {/* <LikesUseState number={0}/> */}
+        
+        {/* 7. Renderizado condicional */}
         {/* <RenderCondicional/> */}
-        <UseMapExample/>
+
+        {/* 8. Mapeo de datos con map() */}
+        {/* <UseMapExample/> */}
       </header>
     </div>
   );
