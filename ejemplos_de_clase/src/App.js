@@ -17,18 +17,19 @@ function App() {
         {/* 1. CSS Modules: */}
         {/* <Boton /> */}
 
-        {/* 2. Pasaje de propiedades a componente */}
-        {/* <MyName name="INOVE"/> */}
-        
-        {/* 3. Estilado por atributo "style" */}
+         
+        {/* 2. Estilado por atributo "style" */}
         {/* <CajaPorAtributo /> */}
         {/* <h1>Hola <Nombre /></h1> */}
         
-        {/* 4. Componente que aplica estilo a sus hijos */}
+        {/* 3. Componente que aplica estilo a sus hijos */}
         {/* <StyleBox>
           <h1>Styled Box</h1>
           <p>Soy una caja que aplica estilo a todos mis hijos.</p>
         </StyleBox> */}
+
+        {/* 4. Pasaje de propiedades a componente */}
+        {/* <MyName name="INOVE"/> */}
 
         {/* 5. Problema de renderizado */}
         {/* <Likes number={0}/> */}
