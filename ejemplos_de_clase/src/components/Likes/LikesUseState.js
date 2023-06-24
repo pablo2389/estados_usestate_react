@@ -1,4 +1,5 @@
 import { useState } from "react";
+
 const LikesUseState = (props) => {
   const [likes, setLikes] = useState(props.number);
   return (
