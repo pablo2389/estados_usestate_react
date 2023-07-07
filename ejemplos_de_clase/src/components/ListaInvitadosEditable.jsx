@@ -24,7 +24,7 @@ const ListaInvitadosEditable = () => {
     // Recordar que no podemos modificar la variable "invitados",
     // debemos modificar el array mediante setInvitados
     // para que se renderice nuevos datos
-    // Tampoco podemos usar "append", debemos crear un array
+    // Tampoco podemos usar "push", debemos crear un array
     // nuevo basado en los datos actuales + el nuevo dato
     const nuevaLista = [...invitados, nuevoInvitado];
     setInvitados(nuevaLista);
