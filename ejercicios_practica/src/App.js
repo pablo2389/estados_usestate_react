@@ -1,12 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NameList from './/NameList';
+import Counter from './/Counter'; 
+import NoteApp from './NoteApp';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        AQUÍ AGREGUE SUS COMPONENTES
-      </header>
+      
+      <NameList />
+      
+      <Counter />
+    <NoteApp />
     </div>
   );
 }
